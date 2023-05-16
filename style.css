@@ -1,0 +1,72 @@
+#container{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px auto;
+    width: 800px;
+    padding:20px;
+    font-family: Calibri;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#size{
+    font-family: Calibri;
+    font-size:1em;
+}
+#name{
+    font-family: Calibri;
+    font-size:1em;
+}
+
+button{
+    border: none;
+    background-color: #B0E0E0;
+    color: black;
+    font-size: 1em;
+    border-radius: 1.5px;
+    transition: transform 0.3s;
+}
+button:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leiras{
+    display:none;
+    align-items: center;
+    font-size: 12pt;
+}
+.visible{
+    display:block;
+}
